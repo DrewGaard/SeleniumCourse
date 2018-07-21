@@ -11,7 +11,7 @@ public class FirstExampleUsingSelenium {
 		
 		driver.get("http://google.com");
 		
-		System.out.println("Creating a gitignore file.");
+		System.out.println("Creating a gitignore file and adding to it.");
 	}
 
 }
