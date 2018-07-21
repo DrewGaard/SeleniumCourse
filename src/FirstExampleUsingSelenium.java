@@ -10,6 +10,8 @@ public class FirstExampleUsingSelenium {
 		WebDriver driver = new FirefoxDriver();
 		
 		driver.get("http://google.com");
+		
+		System.out.println("Creating a gitignore file.");
 	}
 
 }
