@@ -18,7 +18,7 @@ public class HandlingLinks {
 		driver.get("http://www.abodeqa.com/wp-content/uploads/2016/05/DemoSite.html");
 
 		//driver.findElement(By.linkText("About US")).click();
-		clickOnLink("About US");
+		clickOnLink("About US"); //Use the 'clickOnLink' method
 	}
 	
 	public void clickOnLink(String linkText) {
